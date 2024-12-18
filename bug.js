@@ -1,0 +1,1 @@
+In a Firebase project, I encountered an unusual issue where data wasn't being written to Firestore despite the `set()` method seemingly succeeding. The `then()` block of the `set()` promise executed without errors, but the data was absent from the Firestore console.  The code was straightforward:
